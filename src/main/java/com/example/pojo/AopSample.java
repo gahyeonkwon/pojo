@@ -1,10 +1,11 @@
+package com.example.pojo;
+
 import com.example.pojo.LocalExcutionTime;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class AopSample {
-
 
     @LocalExcutionTime
     @GetMapping("/test1")
